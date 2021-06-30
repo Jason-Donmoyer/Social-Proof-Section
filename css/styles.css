@@ -1,0 +1,99 @@
+/*********************************************/
+                /* IMPORTS */
+/*********************************************/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+
+
+
+/*********************************************/
+                /* VARIABLES */
+/*********************************************/
+
+
+:root {
+  
+  /* TYPOGRAPHY */
+
+  /* Fonts */
+  --spartan-font: 'Spartan', sans-serif;
+
+  /* Font Weights */
+  --regular-font-weight: 400;
+  --medium-font-weight: 500;
+  --bold-font-weight: 700;
+
+  /* Font Size */
+  --body-copy: 15px;
+
+
+  /* COLORS */
+
+  /* Primary Colors*/
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+
+  /* Nuetral Colors */
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+
+
+  /* LAYOUT BREAKPOINTS */
+  --mobile: 375px;
+  --desktop: 1440px;
+
+}
+
+/*********************************************/
+                /* STYLES */
+/*********************************************/
+
+
+html {
+  font-family: var(--spartan-font);
+  font-weight: var(--regular-font-weight);
+  font-size: var(--body-copy);
+  width: var(--mobile);
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* MAIN CONTAINER */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* HEADER */
+
+.header {
+  margin-top: 5.333333rem;
+  margin-bottom: 2.666667rem;
+  width: 21.8rem;
+  height: 14.666667rem;
+  text-align: center;
+}
+
+/* header h1 */
+.main-headline {
+  font-weight: var(--bold-font-weight);
+  font-size: 2.133333rem;
+  line-height: 2.133333rem;
+  letter-spacing: -0.076rem;
+  color: var(--very-dark-magenta);
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}
+
+/* header p */
+.header-copy {
+  line-height: 1.666667rem;
+  letter-spacing: -0.033333rem;
+  color: var(--dark-grayish-magenta);
+}
+
