@@ -52,6 +52,8 @@
 /*********************************************/
 
 
+/* HTML */
+
 html {
   font-family: var(--spartan-font);
   font-weight: var(--regular-font-weight);
@@ -67,6 +69,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--white);
 }
 
 /* HEADER */
@@ -95,5 +98,65 @@ html {
   line-height: 1.666667rem;
   letter-spacing: -0.033333rem;
   color: var(--dark-grayish-magenta);
+}
+
+
+/* RATINGS SECTION */
+
+
+/* Ratings Section Container */
+.ratings-section {
+  display: flex;
+  flex-direction: column;
+  width: 21.8rem;
+  height: 17.733333rem;
+  margin-bottom: 3.266667rem;
+}
+
+/* Rating Container */
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 21.8rem;
+  height: 5.2rem;
+  background-color: var(--light-grayish-magenta);
+  border-radius: 0.35rem;
+  margin-bottom: 1.066667rem;
+}
+
+/* Rating Content */
+.content-div {
+  /* width: 11.666667rem; */
+  height: 3.066667rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Stars Container */
+.five-star-container {
+  display: flex;
+  justify-content: space-between;
+  width: 7.8rem;
+  height: 1.066667rem;
+}
+
+/* Star SVG */
+.content-star-img {
+  width: 1.103333;
+  height: 1.051333rem;
+}
+
+/* Rating Copy */
+.content-div-copy {
+  color: var(--very-dark-magenta);
+  text-align: center;
+  font-size: 0.866667rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 0.970667rem;
+  margin: 0;
 }
 
