@@ -160,3 +160,52 @@ html {
   margin: 0;
 }
 
+
+/* REVIEWS SECTION */
+
+
+/* Review Container */
+.review {
+  width: 21.8rem;
+  height: 16.533333rem;
+  background-color: var(--very-dark-magenta);
+  color: var(--white);
+  margin-bottom: 1.066667rem;
+  border-radius: 0.35rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Article Header */
+.article-header {
+  width: 10.666667rem;
+  height: 2.666667rem;
+  margin-top: 2.666667rem;
+  margin-left: 2.133333rem;
+  margin-bottom: 26px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Article Header Image */
+.article-header-img {
+  height: 2.666667rem;
+  width: 2.666667rem;
+  border-radius: 50%;
+}
+
+/* Article Header Copy */
+.article-header-copy {
+  /* width: 6.466667rem; */
+  height: 2.266667rem;
+  margin-left: 1.533333rem;
+}
+
+.article-header-name,
+.verified-buyer,
+.article-copy {
+  font-size: 0.866667rem;
+}
+
+
+
