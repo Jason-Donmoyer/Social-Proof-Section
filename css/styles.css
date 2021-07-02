@@ -178,8 +178,8 @@ html {
 
 /* Article Header */
 .article-header {
-  width: 10.666667rem;
-  height: 2.666667rem;
+  /* width: 10.666667rem; */
+  /* height: 2.666667rem; */
   margin-top: 2.666667rem;
   margin-left: 2.133333rem;
   margin-bottom: 26px;
@@ -197,14 +197,42 @@ html {
 /* Article Header Copy */
 .article-header-copy {
   /* width: 6.466667rem; */
-  height: 2.266667rem;
+  /* height: 2.266667rem; */
   margin-left: 1.533333rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
+/* Shared Styles For Article Header */
 .article-header-name,
 .verified-buyer,
 .article-copy {
   font-size: 0.866667rem;
+  font-style: normal;
+}
+
+/* Article Header Name */
+.article-header-name {
+  font-weight: var(--bold-font-weight);
+  margin: 0;
+  line-height: 0.970667rem;
+}
+
+/* Verified Buyer */
+.verified-buyer {
+  margin: 0;
+  line-height: 0.970667rem;
+  color: var(--soft-pink);
+  font-weight: var(--regular-font-weight);
+}
+
+/* Article Copy Paragraph */
+.article-copy {
+  margin: 0rem 2.133333rem 2.133333rem 2.133333rem;
+  font-weight: var(--medium-font-weight);
+  line-height: 1.466667rem;
+  letter-spacing: -0.0153333rem;
 }
 
 
