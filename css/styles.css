@@ -72,6 +72,11 @@ html {
 
 /* HEADER */
 
+/* Desktop header */
+.desktop-header {
+  display: block;
+}
+
 .header {
   margin-top: 5.333333rem;
   margin-bottom: 2.666667rem;
@@ -279,6 +284,40 @@ html {
     padding-top: 0.4rem;
     margin: 0; 
   }
+
+
+  /* RATINGS SECTION */
+
+  /* Rating Section Container */
+  .ratings-section {
+    width: 36rem;
+    height: 13.333333rem;
+    display: flex;
+    align-self: flex-end;
+    margin-left: 125px;
+    margin-bottom: 0;
+    position: relative;
+  }
+
+
+  /* REVIEWS SECTION */
+  .reviews-section {
+    display: flex;
+  }
+
+  /* Rating Container */
+  .rating {
+    width: 29.666667rem;
+    height: 3.733333rem;
+    position: relative;
+  }
+
+  .content-div {
+    width: 29.666667rem;
+    height: 3.733333rem;
+    flex-direction: row;
+  }
+
 
 }
 
