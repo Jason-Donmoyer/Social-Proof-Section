@@ -74,7 +74,7 @@ html {
 
 /* Desktop header on mobile devices should not have any properties */
 .desktop-header {
-  visibility: none;
+  display: block;
 }
 
 .header {
