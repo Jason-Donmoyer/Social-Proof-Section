@@ -72,10 +72,12 @@ html {
 
 /* HEADER */
 
-/* Desktop header on mobile devices should not have any properties */
+/* Desktop header on mobile devices should not be visible */
 .desktop-header {
-  display: block;
+  display: none;
 }
+
+
 
 .header {
   margin-top: 5.333333rem;
@@ -251,6 +253,9 @@ html {
     width: 100vw;
   }
   
+  .mobile-header {
+    display: none;
+  }
 
   /* DESKTOP HEADER */
   .desktop-header {
@@ -312,10 +317,19 @@ html {
     position: relative;
   }
 
+  /* Rating Content Container */
   .content-div {
     width: 29.666667rem;
     height: 3.733333rem;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* Stars Container */
+  .five-star-container {
+    width: 7.8rem;
+    height: 1.066667rem;
   }
 
 
