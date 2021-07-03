@@ -72,9 +72,9 @@ html {
 
 /* HEADER */
 
-/* Desktop header */
+/* Desktop header on mobile devices should not have any properties */
 .desktop-header {
-  display: block;
+  visibility: none;
 }
 
 .header {
