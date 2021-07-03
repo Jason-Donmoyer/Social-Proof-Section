@@ -40,11 +40,9 @@
   --light-grayish-magenta: hsl(300, 24%, 96%);
   --white: hsl(0, 0%, 100%);
 
-
-  /* LAYOUT BREAKPOINTS */
+  /* Breakpoints */
   --mobile: 375px;
   --desktop: 1440px;
-
 }
 
 /*********************************************/
@@ -235,5 +233,53 @@ html {
   letter-spacing: -0.0153333rem;
 }
 
+
+
+/*********************************************/
+                /* DESKTOP */
+/*********************************************/
+
+@media screen and (min-width: 376px) {
+
+  /* HTML */
+  html {
+    width: 100vw;
+  }
+  
+
+  /* DESKTOP HEADER */
+  .desktop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 77%;
+    height: 15.666667rem;
+    margin-top: 8.466667rem;
+    margin-bottom: 4.8rem;
+  }
+
+  /* Header Container*/
+  .header {
+    width: 29.666667rem;
+    margin: 0;
+    text-align: left;
+  }
+
+  /* Mheader h1 */
+  .main-headline {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    letter-spacing: -0.114rem;
+    margin: 0;
+  }
+
+  /* header p */
+  .header-copy {
+    font-weight: var(--medium-font-weight);
+    padding-top: 0.4rem;
+    margin: 0; 
+  }
+
+}
 
 
