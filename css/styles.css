@@ -245,7 +245,9 @@ html {
                 /* DESKTOP */
 /*********************************************/
 
-@media screen and (min-width: 376px) {
+/* Design was done with a breakpoint of 375px */
+/* Updated the breakpoint to allow for mobile display on Pixel devices and IPhone Plus */
+@media screen and (min-width: 415px) {
 
   /* HTML */
   html {
