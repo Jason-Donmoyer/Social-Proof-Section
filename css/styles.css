@@ -239,6 +239,19 @@ html {
   letter-spacing: -0.0153333rem;
 }
 
+/* FOOTER */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 0.333333rem;
+}
+.attribution a {
+  color: var(--very-dark-magenta);
+  text-decoration: none;
+  cursor: pointer;
+}
+    
 
 
 /*********************************************/
@@ -304,11 +317,6 @@ html {
   }
 
 
-  /* REVIEWS SECTION */
-  .reviews-section {
-    display: flex;
-  }
-
   /* Rating Container */
   .rating {
     width: 29.666667rem;
@@ -341,6 +349,46 @@ html {
   /* BestTech rating */
   .best-tech-rating {
     left: 96px;
+  }
+
+  /* REVIEWS SECTION */
+
+  /* Reviews Container */
+  .reviews-section {
+    display: flex;
+    /* width: 74rem; */
+    height: 17.733333rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 6.666667rem;
+    margin-left: auto;
+    position: relative;
+  }
+
+  /* Review */
+  .review {
+    height: 15.6rem;
+    width: 23.333333rem;
+    position: relative;
+  }
+
+
+  /* Colton Smith Review */
+  .colton-smith-review {
+    margin-right: 1rem;
+  }
+
+  /* Irene Roberts Review */
+  .irene-roberts-review {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    top: 1.066667rem;
+  }
+
+  /* Anne Wallace Review */
+  .anne-wallace-review {
+    margin-left: 1rem;
+    top: 2.133333rem;
   }
 
 
