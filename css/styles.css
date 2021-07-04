@@ -72,13 +72,17 @@ html {
 
 /* HEADER */
 
-/* Desktop header on mobile devices should not be visible */
-.desktop-header {
-  display: none;
+
+/* HEADER CONTAINER */
+.header-container {
+  display: block;
+  width: 21.8rem;
+  height: 41.466667rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-
-
+/* Header */
 .header {
   margin-top: 5.333333rem;
   margin-bottom: 2.666667rem;
@@ -132,7 +136,6 @@ html {
 
 /* Rating Content */
 .content-div {
-  /* width: 11.666667rem; */
   height: 3.066667rem;
   display: flex;
   flex-direction: column;
@@ -183,8 +186,6 @@ html {
 
 /* Article Header */
 .article-header {
-  /* width: 10.666667rem; */
-  /* height: 2.666667rem; */
   margin-top: 2.666667rem;
   margin-left: 2.133333rem;
   margin-bottom: 26px;
@@ -201,8 +202,6 @@ html {
 
 /* Article Header Copy */
 .article-header-copy {
-  /* width: 6.466667rem; */
-  /* height: 2.266667rem; */
   margin-left: 1.533333rem;
   display: flex;
   flex-direction: column;
@@ -253,12 +252,10 @@ html {
     width: 100vw;
   }
   
-  .mobile-header {
-    display: none;
-  }
+  /* HEADER */
 
-  /* DESKTOP HEADER */
-  .desktop-header {
+   /* Header Container */
+  .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -322,7 +319,7 @@ html {
     width: 29.666667rem;
     height: 3.733333rem;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
   }
 
@@ -330,6 +327,18 @@ html {
   .five-star-container {
     width: 7.8rem;
     height: 1.066667rem;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  /* Report Guru rating */
+  .report-guru-rating {
+    left: 48px;
+  }
+
+  /* BestTech rating */
+  .best-tech-rating {
+    left: 96px;
   }
 
 
