@@ -260,7 +260,9 @@ html {
 
 /* Design was done with a breakpoint of 375px */
 /* Updated the breakpoint to allow for mobile display on Pixel devices and IPhone Plus */
-@media screen and (min-width: 415px) {
+/* The breakpoint for those devices is 415px, */
+/* However, changing the breakpoint to 1150px allows for the design to be viewed on more device sizes */
+@media screen and (min-width: 1150px) {
 
   /* HTML */
   html {
